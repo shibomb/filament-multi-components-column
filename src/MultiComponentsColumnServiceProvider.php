@@ -3,6 +3,7 @@
 namespace Shibomb\FilamentMultiComponentsColumn;
 
 use Filament\PluginServiceProvider;
+use Shibomb\FilamentMultiComponentsColumn\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 
 class MultiComponentsColumnServiceProvider extends PluginServiceProvider
@@ -11,6 +12,8 @@ class MultiComponentsColumnServiceProvider extends PluginServiceProvider
     {
         $package
             ->name('filament-multi-components-column')
-            ->hasViews();
+            ->hasConfigFile()
+            ->hasViews()
+            ->hasCommand(InstallCommand::class);
     }
 }

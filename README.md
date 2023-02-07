@@ -27,9 +27,10 @@ You can install the package via composer:
 
 ```bash
 composer require shibomb/filament-multi-components-column
+php artisan filament-multi-components-column:install
 ```
 
-### Display multi data in ONE column
+### Placing components horizontally in a single column
 
 ```php
 use Shibomb\FilamentMultiComponentColumn\Components\MultiComponentsColumn;
@@ -49,6 +50,41 @@ class FooBarResource extends Resource
                     ]),
         :
 ```
+
+### Placing components verticaly in a single column
+
+```php
+                MultiComponentsColumn::make('foo')
+                    ->components([
+                        Tables\Columns\TextColumn::make('foo'),
+                        Tables\Columns\TextColumn::make('bar')
+                    ])
+                    ->verticaly(),
+```
+
+### Override ClassNames
+
+```php
+                MultiComponentsColumn::make('foo')
+                    ->components([
+                        Tables\Columns\TextColumn::make('foo'),
+                        Tables\Columns\TextColumn::make('bar')
+                    ])
+                    ->classNames('your-original-class'),
+```
+
+### Append ClassNames
+
+```php
+                MultiComponentsColumn::make('foo')
+                    ->components([
+                        Tables\Columns\TextColumn::make('foo'),
+                        Tables\Columns\TextColumn::make('bar')
+                    ])
+                    ->appendClassNames('rounded-lg bg-primary-500'),
+```
+
+Note: If calling `verticaly()`, `appendClassNames()` must be called after `verticaly()`.
 
 ## Testing
 
