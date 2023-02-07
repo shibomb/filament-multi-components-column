@@ -1,7 +1,7 @@
 # Filament MultiComponents Column
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/shibomb/filament-multi-components-column.svg?style=flat-square)](https://packagist.org/packages/shibomb/filament-multi-components-column)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/shibomb/filament-multi-components-column/php-cs-fixer.yml?branch=master&style=flat-square)](https://github.com/shibomb/filament-multi-components-column/actions/workflows/php-cs-fixer.yml?query=branch%3Amaster++)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/shibomb/filament-multi-components-column/php-cs-fixer.yml?branch=main&style=flat-square)](https://github.com/shibomb/filament-multi-components-column/actions/workflows/php-cs-fixer.yml?query=branch%3Amain++)
 [![Total Downloads](https://img.shields.io/packagist/dt/shibomb/filament-multi-components-column.svg?style=flat-square)](https://packagist.org/packages/shibomb/filament-multi-components-column)
 
 A Simple Mutli Components Column for Filament Table.
@@ -105,8 +105,8 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [shibomb](https://github.com/shibomb)
-- [All Contributors](../../contributors)
+-   [shibomb](https://github.com/shibomb)
+-   [All Contributors](../../contributors)
 
 ## License
 
