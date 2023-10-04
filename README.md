@@ -1,3 +1,8 @@
+# This repository will no longer be maintained.
+You can use [Filament Tables Stack](https://filamentphp.com/docs/3.x/tables/layout#collapsible-content).
+
+---
+
 # Filament MultiComponents Column
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/shibomb/filament-multi-components-column.svg?style=flat-square)](https://packagist.org/packages/shibomb/filament-multi-components-column)
